@@ -4,7 +4,7 @@ from rehive import Rehive, APIException
 from rest_framework import serializers
 from django.db import transaction
 
-from grindhouse.models import Company, User, Currency
+from grindhouse.models import Company, User, Currency, ServiceAccount
 
 
 class ActivateSerializer(serializers.Serializer):
@@ -68,7 +68,35 @@ class ActivateSerializer(serializers.Serializer):
                 kwargs['company'] = company
                 currency = Currency.objects.create(**kwargs)
 
+            serviceaccount, created = ServiceAccount.objects.get_or_create(
+                token=token,
+                company=rehive_company.get('identifier')
+            )
+
+            serviceaccount.active = True
+            serviceaccount.save()
+
             return company
+
+class LoginSerializer(serializers.Serializer):
+    email = serializers.CharField(write_only=True, required=True, allow_blank=False)
+    password = serializers.CharField(write_only=True, style={"input_type": "password"}, required=True, allow_blank=False)
+
+    def create(self, validated_data):
+        company_identifier = 'grindhouse'
+        email = validated_data.get("email")
+        password = validated_data.get("password")
+        service = ServiceAccount.objects.get(company=company_identifier)
+        rehive = Rehive(service.token)
+
+        response = rehive.auth.login(
+            user=email,
+            company=company_identifier,
+            password=password
+        )
+
+        self.context['request'].session.get('auth_token', response['data']['token'])
+        return response
 
 
 class DeactivateSerializer(serializers.Serializer):

@@ -139,9 +139,14 @@ class AdminCurrencyView(GenericAPIView):
         return Response({'status': 'success', 'data': serializer.data})
 
 
-# class LoginView(GenericAPIView):
-#     allowed_methods = ('POST',)
-#     serializer_class = LoginSerializer
-#
-#     def post(self, request, *args, **kwargs):
-#
+class LoginView(GenericAPIView):
+    allowed_methods = ('POST',)
+    serializer_class = LoginSerializer
+
+    def post(self, request, *args, **kwargs):
+        serializer = self.get_serializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        return Response(
+            {'status': 'success', 'data': serializer.data},
+            status=status.HTTP_200_OK
+        )
