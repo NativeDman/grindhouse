@@ -12,8 +12,8 @@ from grindhouse.pagination import ResultsSetPagination
 from grindhouse.authentication import AdminAuthentication
 from grindhouse.serializers import (
     ActivateSerializer, DeactivateSerializer, AdminCompanySerializer,
-    CurrencySerializer
-)
+    CurrencySerializer,
+    LoginSerializer)
 from grindhouse.models import Currency
 
 logger = getLogger('django')

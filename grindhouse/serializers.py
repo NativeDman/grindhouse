@@ -78,6 +78,7 @@ class ActivateSerializer(serializers.Serializer):
 
             return company
 
+
 class LoginSerializer(serializers.Serializer):
     email = serializers.CharField(write_only=True, required=True, allow_blank=False)
     password = serializers.CharField(write_only=True, style={"input_type": "password"}, required=True, allow_blank=False)

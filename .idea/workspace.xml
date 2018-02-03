@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e6ba12a5-598b-4610-b5d2-e00d0e03c7e0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grindhouse/serializers.py" afterPath="$PROJECT_DIR$/grindhouse/serializers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grindhouse/urls.py" afterPath="$PROJECT_DIR$/grindhouse/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grindhouse/views.py" afterPath="$PROJECT_DIR$/grindhouse/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grindhouse/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="148" column="0" lean-forward="false" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+            <state relative-caret-position="395">
+              <caret line="144" column="0" lean-forward="true" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -81,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="serializers.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grindhouse/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="96" column="0" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+            <state relative-caret-position="618">
+              <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -127,8 +126,8 @@
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/grindhouse/models.py" />
         <option value="$PROJECT_DIR$/grindhouse/urls.py" />
-        <option value="$PROJECT_DIR$/grindhouse/views.py" />
         <option value="$PROJECT_DIR$/grindhouse/serializers.py" />
+        <option value="$PROJECT_DIR$/grindhouse/views.py" />
       </list>
     </option>
   </component>
@@ -295,22 +294,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grindhouse/views.py">
+    <entry file="file://$PROJECT_DIR$/grindhouse/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="148" column="0" lean-forward="false" selection-start-line="148" selection-start-column="0" selection-end-line="148" selection-end-column="0" />
+        <state relative-caret-position="618">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grindhouse/serializers.py">
+    <entry file="file://$PROJECT_DIR$/grindhouse/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="96" column="0" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+        <state relative-caret-position="395">
+          <caret line="144" column="0" lean-forward="true" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
