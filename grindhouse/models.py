@@ -58,4 +58,5 @@ class Currency(DateModel):
 
 class ServiceAccount(DateModel):
     token = models.CharField(max_length=255, null=False, blank=False, unique=True),
-    company = models.CharField(max_length=255, null=False, blank=False, unique=True)
+    company = models.CharField(max_length=255, null=False, blank=False, unique=True),
+    active = models.BooleanField(default=False, null=False)

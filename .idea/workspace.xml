@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6ba12a5-598b-4610-b5d2-e00d0e03c7e0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grindhouse/models.py" afterPath="$PROJECT_DIR$/grindhouse/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grindhouse/urls.py" afterPath="$PROJECT_DIR$/grindhouse/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grindhouse/views.py" afterPath="$PROJECT_DIR$/grindhouse/views.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -73,8 +70,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grindhouse/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="60" column="84" lean-forward="true" selection-start-line="60" selection-start-column="84" selection-end-line="60" selection-end-column="84" />
+            <state relative-caret-position="515">
+              <caret line="61" column="59" lean-forward="true" selection-start-line="61" selection-start-column="59" selection-end-line="61" selection-end-column="59" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -126,9 +123,9 @@
       <list>
         <option value="$PROJECT_DIR$/config/plugins/database.py" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
-        <option value="$PROJECT_DIR$/grindhouse/models.py" />
         <option value="$PROJECT_DIR$/grindhouse/views.py" />
         <option value="$PROJECT_DIR$/grindhouse/urls.py" />
+        <option value="$PROJECT_DIR$/grindhouse/models.py" />
       </list>
     </option>
   </component>
@@ -307,8 +304,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grindhouse/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="60" column="84" lean-forward="true" selection-start-line="60" selection-start-column="84" selection-end-line="60" selection-end-column="84" />
+        <state relative-caret-position="515">
+          <caret line="61" column="59" lean-forward="true" selection-start-line="61" selection-start-column="59" selection-end-line="61" selection-end-column="59" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
