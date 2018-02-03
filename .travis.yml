@@ -6,6 +6,7 @@ python:
 before_script:
 - export LOCAL_POSTGRES_PORT_RANGE=5432
 - docker-compose build
+- docker-compose run --rm web bash -c "python postgres_ready.py && ./manage.py migrate"
 script:
 - docker-compose run --rm web bash -c "python postgres_ready.py && ./manage.py test"
 after_success:
