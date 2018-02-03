@@ -54,3 +54,8 @@ class Currency(DateModel):
 
     def __str__(self):
         return str(self.code)
+
+
+class ServiceAccount(DateModel):
+    token = models.CharField(max_length=255, null=False, blank=False, unique=True),
+    company = models.CharField(max_length=255, null=False, blank=False, unique=True)
